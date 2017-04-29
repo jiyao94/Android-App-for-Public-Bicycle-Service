@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/reserve_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Balance"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:textSize="36sp" />
+
+    <EditText
+        android:id="@+id/balance_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="100.0"
+        android:inputType="numberDecimal"/>
+
+    <Button
+        android:id="@+id/topup_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Top Up" />
+</LinearLayout>
